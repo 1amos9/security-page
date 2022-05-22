@@ -24,8 +24,8 @@
   <link href="css/style.css" rel="stylesheet" />
   <link href="css/responsive.css" rel="stylesheet" />
   <title>Royal</title>
-  <body>
-    <header class="header_section">
+  <body class="bg-light">
+    <header class="header_section fixed-top text-light">
       <div class="container">
         <nav class="navbar navbar-expand-lg custom_nav-container">
           <a class="navbar-brand" href="#">
@@ -34,7 +34,7 @@
             </div>
           </a>
           <button
-            class="navbar-toggler"
+            class="navbar-toggler border border-light btn btn-outline-none"
             type="button"
             data-toggle="collapse"
             data-target="#navbarSupportedContent"
@@ -47,16 +47,18 @@
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto mr-2">
-              <li class="nav-item active">
-                <a class="nav-link" href="index.html"
+              <li class="nav-item position-relative">
+                <a class="nav-link text-light" href="index.html"
                   >Home <span class="sr-only">(current)</span></a
                 >
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About Us </a>
+              <li class="nav-item position-relative">
+                <a class="nav-link text-light" href="about.html">About Us </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact us</a>
+              <li class="nav-item position-relative">
+                <a class="nav-link text-light" href="contact.html"
+                  >Contact us</a
+                >
               </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
@@ -68,7 +70,7 @@
                 value=""
               />
               <button
-                class="btn my-2 my-sm-0 nav_search-btn"
+                class="btn my-2 my-sm-0 nav_search-btn py-0 px-0"
                 type="submit"
               ></button>
             </form>
@@ -77,19 +79,23 @@
       </div>
     </header>
 
-    <section class="welcome_section layout_padding">
+    <section class="welcome_section layout_padding py-5">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-6 py-1 px-5">
             <div>
               <img class="img-fluid" src="images/welcome.jpg" alt="" />
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 py-1 px-2">
             <div class="welcome_detail">
-              <h3>Welcome</h3>
-              <h2>Welcome security services Company</h2>
-              <p>
+              <h3 class="text-uppercase text-primary fw-bold position-relative">
+                Welcome
+              </h3>
+              <h2 class="text-uppercase text-dark fw-bold mt-5*5">
+                Welcome security services Company
+              </h2>
+              <p class="mt-5*5">
                 There are many variations of passages of Lorem Ipsum available,
                 but the majority have suffered alteration in some form, by
                 injected humour, or randomised words which don't look even
@@ -98,7 +104,7 @@
                 f act that a reader will be distracted by the readable content
                 of a page whe
               </p>
-              <div class="welcome_detail-btn">
+              <div class="welcome_detail-btn mt-5*5">
                 <a href="">
                   <span> Read More </span>
                   <img src="images/arrow-black.png" alt="" class="ml-2" />
@@ -109,12 +115,12 @@
         </div>
       </div>
     </section>
-    <section class="info_section layout_padding">
+    <section class="info_section layout_padding py-5 bg-dark fst-normal">
       <div class="container">
         <div class="row">
-          <div class="col-md-4 info_detail">
+          <div class="col-md-4 info_detail d-flex align-items-center">
             <div>
-              <p>
+              <p class="text-light">
                 There are many variations of passages of Lorem Ipsum available,
                 but the majority have suffered alteration in some form, by
                 injected humour, or randomised words which don't look even
@@ -124,18 +130,27 @@
           </div>
           <div class="col-md-4 address_container">
             <div>
-              <h3>Address:</h3>
-              <div class="address_link-container">
-                <a href="">
-                  <img src="images/location.png" alt="" />
+              <h3 class="text-uppercase text-light fs-2">Address:</h3>
+              <div class="address_link-container d-block">
+                <a
+                  class="d-flex text-light my-3 mx-0 align-items-center"
+                  href=""
+                >
+                  <img class="mr-1" src="images/location.png" alt="" />
                   <span> Address: 12 AV-kicukiro, KIGALI, RWANDA </span>
                 </a>
-                <a href="">
-                  <img src="images/phone.png" alt="" />
+                <a
+                  class="d-flex text-light my-3 mx-0 align-items-center"
+                  href=""
+                >
+                  <img class="mr-1" src="images/phone.png" alt="" />
                   <span> Tel: +250 78 66 33 822 </span>
                 </a>
-                <a href="">
-                  <img src="images/mail.png" alt="" />
+                <a
+                  class="d-flex text-light my-3 mx-0 align-items-center"
+                  href=""
+                >
+                  <img class="mr-1" src="images/mail.png" alt="" />
                   <span> Email: amosthibault19@gmail.com </span>
                 </a>
               </div>
@@ -144,15 +159,24 @@
           <div class="col-md-4 news_container">
             <div>
               <div>
-                <h3>news letter</h3>
-                <form action="">
-                  <input type="email" placeholder="ENTER YOUR EMAIL" />
+                <h3 class="text-uppercase text-light fs-2">news letter</h3>
+                <form action="" class="my-3 mx-0">
+                  <input
+                    class="border-0 bg-light py-1 px-1"
+                    type="email"
+                    placeholder="ENTER YOUR EMAIL"
+                  />
                   <div>
-                    <button type="submit">Subscribe</button>
+                    <button
+                      class="border-0 bg-primary text-light fs-4 py-1 px-3 mt-3 text-uppercase"
+                      type="submit"
+                    >
+                      Subscribe
+                    </button>
                   </div>
                 </form>
               </div>
-              <div class="social_container">
+              <div class="social_container d-flex justify-content-between mt-5">
                 <div>
                   <img src="images/fb.png" alt="" />
                 </div>

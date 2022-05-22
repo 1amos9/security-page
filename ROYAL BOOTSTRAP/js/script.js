@@ -50,13 +50,11 @@ function initMap() {
     },
   });
 
-  var image = "images/maps-and-flags.png";
-  var beachMarker = new google.maps.Marker({
+  var marker = new google.maps.Marker({
     position: {
       lat: 40.645037,
       lng: -73.880224,
     },
     map: map,
-    icon: image,
   });
 }
