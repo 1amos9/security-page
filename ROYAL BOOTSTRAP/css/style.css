@@ -3,14 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
-body {
-  font-family: "Open Sans", sans-serif;
-}
 
 .header_section {
-  font-family: "Roboto", sans-serif;
   background-color: #030736;
-  min-height: 40px;
+  min-height: 20px;
 }
 .nav-item::after {
   content: " ";
@@ -108,7 +104,7 @@ a:focus {
 }
 .slider_section .slider_box .slider-detail {
   width: 60%;
-  /* i tried to use on bootstrap but is not moving far because the margin don't allow us to go far for the mr-5 ml-5 that why i decide to use the css here to position it well */
+  /* i tried to use on bootstrap but is not moving far as i want because of the margin don't allow me to go far for the mr-5 ml-5 that why i decide to use the css here to position it well */
   margin-top: 11%;
   margin-left: 13%;
 }
@@ -266,9 +262,6 @@ a:focus {
 /* the end of the guards pictures arrow */
 .story_section .container-fluid {
   box-shadow: 1px -1px 24px -13px rgba(0, 0, 0, 0.75);
-}
-.story_section .col-md-6 {
-  align-items: center;
 }
 .story_detail {
   width: 85%;
