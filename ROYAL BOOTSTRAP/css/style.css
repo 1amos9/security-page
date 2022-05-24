@@ -34,36 +34,23 @@ a:focus {
   background-size: 22px;
   background-repeat: no-repeat;
   background-position-y: 7px;
-  width: 35px;
-  height: 35px;
 }
 .nav-link:hover {
   color: #fff;
-}
-.logo_box {
-  width: 80px;
-}
-.logo_box img {
-  width: 80%;
 }
 .slider_section {
   height: calc(100vh - 90px);
 }
 .slider_section .carousel-indicators {
-  top: 50%;
   left: -75px;
   transform: translateY(-50%);
   bottom: unset;
   right: unset;
 }
-.slider_section .carousel-indicators li {
-  width: 16px;
-  height: 16px;
+.fixed_company-detail p {
+  width: 1px;
 }
-
 .slider_section .carousel-indicators .active {
-  width: 24px;
-  height: 24px;
   background-color: #2561db;
 }
 .vert .carousel-item-next.carousel-item-left,
@@ -93,20 +80,9 @@ a:focus {
   right: 10%;
   transform: translate(-50%, -50%);
 }
-.slider_section .slider_box .fixed_company-detail p {
-  width: 12px;
-}
 .slider_section .slider_box .slider-detail {
-  width: 60%;
-  /* i tried to use on bootstrap but is not moving far as i want because of the margin don't allow me to go far for the mr-5 ml-5 that why i decide to use the css here to position it well */
   margin-top: 11%;
   margin-left: 13%;
-}
-.slider_section .slider_box .slider-detail .slider_detail-text {
-  width: 55%;
-}
-.welcome_detail {
-  width: 75%;
 }
 .welcome_detail h3::after {
   position: absolute;
@@ -121,9 +97,6 @@ a:focus {
 .welcome_section .welcome_detail-btn a:hover {
   text-transform: uppercase;
   color: #815908;
-}
-.welcome_section .welcome_detail-btn a img {
-  width: 25px;
 }
 .service_detail h3::after {
   position: absolute;
@@ -185,9 +158,6 @@ a:focus {
   width: 140px;
   background-color: #36bb25;
 }
-.security_section .security_container {
-  width: 95%;
-}
 .security_section .security_img-box {
   background-size: cover;
   width: 300px;
@@ -203,16 +173,9 @@ a:focus {
 .security_section .security_img-box.i-box-3 {
   background-image: url(../images/security-3.jpg);
 }
-/* this link of view i can't do it in bootstrap because of when i do in bootstrap the hover refuse to respond */
 .security_section .security_img-box a {
   display: none;
-  opacity: 0;
-  text-transform: uppercase;
-  padding: 8px 12px;
-  border: 1.5px solid #f0f0f0;
-  color: #fff;
 }
-/* the end of the link of view on guard pictures with hover */
 .security_section .security_img-box:hover a {
   display: inline-block;
   opacity: 1;
@@ -221,44 +184,6 @@ a:focus {
 .security_btn a:hover {
   text-transform: uppercase;
   color: #614307;
-}
-.security_btn a img {
-  width: 25px;
-}
-/* left arrow and right arrow on the our guard pictures with hover */
-.owl-carousel .owl-nav,
-.owl-carousel .owl-nav.disabled {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  z-index: 0;
-}
-.owl-carousel .owl-nav .owl-next,
-.owl-carousel .owl-nav .owl-prev {
-  position: absolute;
-  top: 50%;
-  background-color: #254a93;
-  width: 70px;
-  height: 40px;
-  background-repeat: no-repeat;
-  background-size: 22px;
-  background-position: 50%;
-  transform: translateY(-50%);
-}
-.owl-carousel .owl-nav .owl-next {
-  right: -25px;
-  background-image: url(../images/right-arrow.png);
-}
-.owl-carousel .owl-nav .owl-prev {
-  left: -25px;
-  background-image: url(../images/left-arrow.png);
-}
-/* the end of the guards pictures arrow */
-.story_section .container-fluid {
-  box-shadow: 1px -1px 24px -13px rgba(0, 0, 0, 0.75);
-}
-.story_detail {
-  width: 85%;
 }
 .story_section .story_detail-btn a,
 .story_section .story_detail-btn a:hover {
@@ -273,10 +198,7 @@ a:focus {
 .contact_form-container {
   background-image: url(../images/guards.jpg);
 }
-.contact_form-container .contact_box {
-  width: 50%;
-  height: 60%;
-}
+
 .contact_form-container form input,
 .contact_form-container form input:focus,
 .contact_form-container form input:active {
@@ -286,10 +208,4 @@ a:focus {
   width: 85%;
   margin-top: 12px;
   outline: none;
-}
-.info_section .news_container .social_container {
-  width: 50%;
-}
-.social_container img {
-  cursor: pointer;
 }
