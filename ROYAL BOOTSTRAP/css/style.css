@@ -190,15 +190,9 @@ a:focus {
   text-transform: uppercase;
   color: #815908;
 }
-
-.story_section .story_detail-btn a img {
-  width: 25px;
-}
-
 .contact_form-container {
   background-image: url(../images/guards.jpg);
 }
-
 .contact_form-container form input,
 .contact_form-container form input:focus,
 .contact_form-container form input:active {
