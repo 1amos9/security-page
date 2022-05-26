@@ -35,17 +35,12 @@ a:focus {
   background-repeat: no-repeat;
   background-position-y: 7px;
 }
-.nav-link:hover {
-  color: #fff;
-}
-.slider_section {
-  height: calc(100vh - 90px);
-}
 .slider_section .carousel-indicators {
-  left: -75px;
   transform: translateY(-50%);
   bottom: unset;
-  right: unset;
+  right: -75px;
+  left: unset;
+  top: 50%;
 }
 .fixed_company-detail p {
   width: 1px;
@@ -63,7 +58,11 @@ a:focus {
   -webkit-transform: translate3d(0, 100%, 0);
   transform: translate3d(0, 100% 0);
 }
-
+.vert .carousel-item-prev,
+.vert .active.carousel-item-left {
+  -webkit-transform: translate3d(0, -100%, 0);
+  transform: translate3d(0, -100%, 0);
+}
 .slider_section .slider_box {
   position: relative;
   height: calc(100vh - 90px);
