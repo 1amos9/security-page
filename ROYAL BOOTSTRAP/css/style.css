@@ -128,36 +128,10 @@ a:focus {
   width: 60%;
   background-image: url(../images/s-4.jpg);
 }
-.service_section .service_img-container a,
-.service_section .service_img-container a:hover {
-  color: #fff;
-  text-transform: uppercase;
-  padding: 15px 40px;
-}
-.service_section .service_img-container .service_img-box:hover {
-  cursor: pointer;
-}
 .service_section .service_img-container .service_img-box:hover a {
   background-color: #25dbd5;
 }
-.service_btn a,
-.service_btn a:hover {
-  text-transform: uppercase;
-  color: #815908;
-}
-.service_btn a img {
-  width: 25px;
-}
-.security_section h3::after {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  content: "";
-  height: 1.5px;
-  width: 140px;
-  background-color: #36bb25;
-}
+
 .security_section .security_img-box {
   background-size: cover;
   width: 300px;
@@ -180,16 +154,6 @@ a:focus {
   display: inline-block;
   opacity: 1;
 }
-.security_btn a,
-.security_btn a:hover {
-  text-transform: uppercase;
-  color: #614307;
-}
-.story_section .story_detail-btn a,
-.story_section .story_detail-btn a:hover {
-  text-transform: uppercase;
-  color: #815908;
-}
 .contact_form-container {
   background-image: url(../images/guards.jpg);
 }
@@ -202,10 +166,4 @@ a:focus {
   width: 85%;
   margin-top: 12px;
   outline: none;
-}
-
-.contact_form-container form input,
-.contact_form-container form input:focus,
-.contact_form-container form input:active {
-  width: 100%;
 }
