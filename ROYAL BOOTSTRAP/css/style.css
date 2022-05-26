@@ -63,22 +63,13 @@ a:focus {
   -webkit-transform: translate3d(0, 100%, 0);
   transform: translate3d(0, 100% 0);
 }
-.vert .carousel-item-prev,
-.vert .active.carousel-item-left {
-  -webkit-transform: translate3d(0, -100%, 0);
-  transform: translate3d(0, -100%, 0);
-}
+
 .slider_section .slider_box {
   position: relative;
   height: calc(100vh - 90px);
   background-image: url(../images/banner.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-}
-.slider_section .slider_box .fixed_company-detail {
-  top: 50%;
-  right: 10%;
-  transform: translate(-50%, -50%);
 }
 .slider_section .slider_box .slider-detail {
   margin-top: 11%;
