@@ -2,39 +2,7 @@
   background-color: #030736;
   min-height: 20px;
 }
-.nav-item::after {
-  content: " ";
-  display: none;
-  height: 5px;
-  width: 80%;
-  left: 8px;
-  bottom: 5px;
-  position: absolute;
-  background-color: rgb(28, 159, 182);
-  transition: all 250ms ease-in-out;
-}
-.nav-item:hover::after {
-  display: block;
-}
-a,
-a:hover,
-a:focus {
-  text-decoration: none;
-}
-.btn,
-.btn:focus {
-  outline: none;
-  box-shadow: none;
-}
-.custom_nav-container .navbar-toggler .navbar-toggler-icon {
-  background-image: url(../images/menu.png);
-}
-.custom_nav-container .nav_search-btn {
-  background-image: url(../images/search-icon.png);
-  background-size: 22px;
-  background-repeat: no-repeat;
-  background-position-y: 7px;
-}
+
 .slider_section .carousel-indicators {
   transform: translateY(-50%);
   bottom: unset;
