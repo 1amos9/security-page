@@ -67,28 +67,6 @@
   background-color: #25dbd5;
 }
 
-.security_section .security_img-box {
-  background-size: cover;
-  width: 300px;
-  height: 490px;
-  z-index: 999;
-}
-.security_section .security_img-box.i-box-1 {
-  background-image: url(../images/security-1.jpg);
-}
-.security_section .security_img-box.i-box-2 {
-  background-image: url(../images/security-2.jpg);
-}
-.security_section .security_img-box.i-box-3 {
-  background-image: url(../images/security-3.jpg);
-}
-.security_section .security_img-box a {
-  display: none;
-}
-.security_section .security_img-box:hover a {
-  display: inline-block;
-  opacity: 1;
-}
 .contact_form-container {
   background-image: url(../images/guards.jpg);
 }
