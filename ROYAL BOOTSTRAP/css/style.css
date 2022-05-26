@@ -6,8 +6,8 @@
 .slider_section .carousel-indicators {
   transform: translateY(-50%);
   bottom: unset;
-  right: -75px;
-  left: unset;
+  right: unset;
+  left: 75%;
   top: 50%;
 }
 .fixed_company-detail p {
