@@ -7,7 +7,7 @@
   transform: translateY(-50%);
   bottom: unset;
   right: unset;
-  left: 75%;
+  left: 75vw;
   top: 50%;
 }
 .fixed_company-detail p {
